@@ -224,7 +224,7 @@ a {
 
 .playercontrol-icons {
     height: 1rem;
-    margin-right: 1.75rem;
+    margin-right: 2rem;
     opacity: 0.7;
 }
 
@@ -236,4 +236,68 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.progress-bar {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    background-color: #1bd760;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.album {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album-small-image {
+    height: 3.2rem;
+}
+
+.album-image-title {
+    font-weight: 600;
+    font-size: 0.9rem;
+
+}
+
+.album-image-aftertitle {
+    font-size: 0.75rem;
+    margin-top: -12px;
+}
+
+.album-image {
+    display: flex;
+    margin-left: 0.5rem;
+    align-items: center;
+}
+
+.album-image-content {
+    margin-left: 1rem;
+}
+
+.album-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.controls {
+    display: flex;
 }
